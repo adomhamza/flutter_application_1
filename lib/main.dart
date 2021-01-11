@@ -19,8 +19,10 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[900],
       ),
       body: Center(
-        child: Image(
-          image: AssetImage('assets/car3.jpg'),
+        child: Icon(
+          Icons.wallet_giftcard_outlined,
+          color: Colors.black,
+          size: 50.0,
         ),
       ),
       floatingActionButton: FloatingActionButton(
